@@ -1,0 +1,22 @@
+{
+  "name": "snowpack-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "start:prod": "npx serve build -l 1234"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@snowpack/plugin-dotenv": "^2.0.5",
+    "@snowpack/plugin-webpack": "^2.3.0",
+    "snowpack": "^3.0.13"
+  },
+  "dependencies": {
+    "preact": "^10.5.12"
+  }
+}
